@@ -12,7 +12,7 @@ install_requires = [
     "matplotlib",
     "scikit-learn>=0.22.2,==0.23.*",
     "six",
-    "setuptools",
+    "setuptools==52.0.0",
     "Pillow",
     "tqdm",
     "statsmodels",
