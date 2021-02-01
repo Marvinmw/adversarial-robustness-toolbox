@@ -147,8 +147,7 @@ jobs:
           pip install keras==2.3.1
       - name: Install Dependencies
         run: |
-          python -m pip install --upgrade pip wheel
-          pip install -q setuptools==52.0.0
+          python -m pip install --upgrade pip setuptools wheel
           pip install -q pylint pycodestyle
           pip install -q -r requirements.txt
           pip list
