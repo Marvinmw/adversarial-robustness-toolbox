@@ -148,7 +148,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip wheel
-          pip install -q setuptools<=0.52
+          pip install -q setuptools==0.52
           pip install -q pylint pycodestyle
           pip install -q -r requirements.txt
           pip list
